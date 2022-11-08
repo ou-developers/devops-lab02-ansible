@@ -15,7 +15,7 @@
     become: yes
   - name: Copying the Directory's contents (sub directories/files)
     copy:
-        src: ~/devops-lab02-ansible/html/
+        src: ~/devops-lab02-ansible/index.html
         dest: /var/www/html
         owner: apache
         group: apache
