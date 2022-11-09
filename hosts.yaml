@@ -1,4 +1,4 @@
 all:
   hosts:
-    <public-ip-1>: # Replace
-    <public-ip-2>: # Replace
+    <public-ip-1>:
+    <public-ip-2>:
