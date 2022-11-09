@@ -13,7 +13,7 @@
       name: httpd
       state: started
     become: true
-  - name: copying file with playbook
+  - name: Copying file with playbook
     copy:
         src: ~/devops-lab02-ansible/index.html
         dest: /var/www/html
